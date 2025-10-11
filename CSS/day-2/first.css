@@ -1,0 +1,29 @@
+.link{
+    text-decoration: none;
+    color:rgb(224, 148, 148);
+    background-color: rgb(136, 184, 227);
+}
+body{
+    background-color: rgba(120, 176, 184, 0.729);
+}
+#para2{
+    font-size: medium;
+    border: 2px dashed rgb(81, 182, 212) ;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+#para3{
+    margin: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    letter-spacing: 20px;
+}
+a,
+p,
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+  background-color: aqua;  
+}
+   
