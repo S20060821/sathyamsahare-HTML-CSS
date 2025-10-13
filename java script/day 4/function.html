@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre> different ways to use function
+        1.function declaration
+        2.arrow function
+        2.function expresssion
+    </pre>
+    <pre style="color: darkmagenta;"><h1>syntax</h1>
+       1. function fun_name(parameters)
+          {
+             //body of the functions
+          }
+          fun_name(arguments);
+
+
+       2. const fun_name= function(parameters)
+          {
+            //body of the function
+          } 
+          fun_name(arguments);
+
+
+       3. const fun_name=(parameters)=>
+          {
+          //body of the function
+          }
+          fun_name(arguments);
+
+    </pre>
+  <script>
+    function add(a,b)
+    {
+        console.log("res",a+b);
+    }add(20,30);
+
+    const multiply=function(c,d)
+    {
+        console.log("res",c*d)
+    }
+    multiply(10,20);
+    
+    const divide=(p,q)=>
+    {
+        console.log("result",p/q)
+    }
+    divide(45,5);
+
+  </script>  
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: cadetblue ; margin: 30px ; padding: 20px;"> LOOPS IN JAVA SCRIPT </h1>
+     <p style="color: violet;border: 30PX ; margin: 45px;"> FOR LOOP if you know the no of iterations</p>
+      <p style="color: darkmagenta;border: 20px  ; margin: 45px;"> WHILE LOOP - if you don't know the no of iterations</p>
+       <p style="color: rgb(166, 162, 204);border: 20px ; margin: 45px;"> DO WHILE - pre checked loop</p>
+        <p style="color: rgb(123, 165, 174);border: 20px ; margin: 45px;"> FOR IN LOOP - takes key from the object or index from the array</p>
+        <p style="color: red;border: 20px ; margin: 45px;"> FOR of LOOP - takes value from the array</p>
+         <p style="color: rgb(150, 187, 114);border: 20px ; margin: 45px;"> FOR EACH - takes value and index from the array</p>
+   <script>
+    console.log('for loop')
+    for (let i = 1; i <= 5; i++) {
+  console.log("Count:", i);
+}
+console.log("while loop")
+let i = 1;
+while (i <= 5) {
+  console.log("While Count:", i);
+  i++;
+}
+
+
+console.log("do while loop")
+let j = 6;
+do {
+  console.log("Do While Count:", j);
+  i++;
+} while (j<= 5);
+
+
+
+console.log("for in loop")
+const person = {
+  name: "John",
+  age: 30,
+  job: "Developer"
+};
+
+for (let key in person) {
+  console.log(key + ":", person[key]);
+}
+
+
+
+console.log("for of loop")
+const colors = ["red", "green", "blue"];
+
+for (let color of colors) {
+  console.log("Color:", color);
+}
+
+
+
+console.log("for each loop")
+const numbers = [10, 20, 30];
+
+numbers.forEach(function(num, index) {
+  console.log(`Index ${index}:`, num);
+});
+ </script> 
+</body>
+</html>
