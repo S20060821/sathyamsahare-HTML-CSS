@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">                            
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+  .highlight {
+    color: white;
+    background-color: blue;
+  }
+</style>
+
+<p id="myText">Hello sathyam</p>
+
+<script>
+  document.getElementById("myText").className = "highlight";
+  // or: document.getElementById("myText").classList.add("highlight");
+</script>
+
+    <p>1.we can change the content of html.</p>
+    <h1 id="tittle">hello world</h1>
+    <button type="button" onclick="document.getElementById('tittle').innerText='text changed using js'">change the content of h1 </button>
+    <p>2. we can change the html attr.</p>
+    <img src="./off.png" alt="off" id="bulb">
+    <button type="button" onclick="document.getElementById('bulb').src='./onn.png'">turn on</button>
+    <button type="button" onclick="document.getElementById('bulb').src='./off.png'">turn of</button>
+
+    <p>3. we can change the css.</p>
+    <div id="desc">lorem.ipsum.</div>
+    <button onclick="document.getElementById('desc').style.backgroundColor='green'">change background</button>
+    <p>4.we can hide the html eleement.</p>
+    <h3 id="tittle3">lorem.ipsum.</h3>
+    <button  onclick="document.getElementById('tittle3').style.display='none'">hide ele</button>
+    <p>5.we can show the html element.</p>
+    <h2 id="heading_2" style="display: none;">heading_2</h2>
+    <button onclick="document.getElementById('heading_2').style.display='block'">show ele</button>
+</body>
+</html>
